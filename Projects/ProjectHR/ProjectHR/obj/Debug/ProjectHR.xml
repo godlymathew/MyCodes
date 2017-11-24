@@ -22,5 +22,40 @@ ProjectHR
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:ProjectHR.My.Resources.Resources.Dario_Arnaez_Genesis_3G_User_Files">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectHR.My.Resources.Resources.Hopstarter_Sleek_Xp_Basic_Preppy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectHR.My.Resources.Resources.if_document_1287528">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectHR.My.Resources.Resources.if_email_1287527">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectHR.My.Resources.Resources.if_Profile_10593">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectHR.My.Resources.Resources.if_user_1287507">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectHR.My.Resources.Resources.Lgp85_Magic_Christmas_My_Documents">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

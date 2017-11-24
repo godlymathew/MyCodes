@@ -45,6 +45,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>if_user_1287507.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -131,6 +134,12 @@
   <ItemGroup>
     <Folder Include="Form\Reports\" />
     <Folder Include="Form\Transactions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="if_user_1287507.ico" />
+    <None Include="Resources\if_user_1287507.ico" />
+    <None Include="Resources\if_email_1287527.ico" />
+    <None Include="Resources\if_document_1287528.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
