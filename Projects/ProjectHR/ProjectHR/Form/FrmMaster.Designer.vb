@@ -32,6 +32,11 @@ Partial Class FrmMaster
         Me.AboutToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
+        Me.EmployeesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EmployeesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ListToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AppMainMenu.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -55,7 +60,7 @@ Partial Class FrmMaster
         '
         'EmployeeToolStripMenuItem
         '
-        Me.EmployeeToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem})
+        Me.EmployeeToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EmployeesToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.EmployeeToolStripMenuItem.Name = "EmployeeToolStripMenuItem"
         Me.EmployeeToolStripMenuItem.Size = New System.Drawing.Size(71, 20)
         Me.EmployeeToolStripMenuItem.Text = "&Employee"
@@ -63,11 +68,12 @@ Partial Class FrmMaster
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(92, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
         'ReportsToolStripMenuItem
         '
+        Me.ReportsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EmployeesToolStripMenuItem1})
         Me.ReportsToolStripMenuItem.Name = "ReportsToolStripMenuItem"
         Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
         Me.ReportsToolStripMenuItem.Text = "&Reports"
@@ -90,7 +96,7 @@ Partial Class FrmMaster
         Me.ToolStrip1.AutoSize = False
         Me.ToolStrip1.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(32, 32)
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton2})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton2, Me.ToolStripButton1, Me.ToolStripButton3})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 24)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(864, 35)
@@ -100,12 +106,54 @@ Partial Class FrmMaster
         '
         'ToolStripButton2
         '
+        Me.ToolStripButton2.AutoSize = False
+        Me.ToolStripButton2.BackgroundImage = Global.ProjectHR.My.Resources.Resources.if_User_27887
         Me.ToolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton2.Image = Global.ProjectHR.My.Resources.Resources.if_user_1287507
+        Me.ToolStripButton2.Image = Global.ProjectHR.My.Resources.Resources.if_User_27887
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(36, 32)
+        Me.ToolStripButton2.Size = New System.Drawing.Size(32, 32)
         Me.ToolStripButton2.Text = "ToolStripButton2"
+        Me.ToolStripButton2.ToolTipText = "Add or Edit an Employee"
+        '
+        'ToolStripButton1
+        '
+        Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton1.Image = Global.ProjectHR.My.Resources.Resources.if_SEO_Performance_2___324966
+        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton1.Name = "ToolStripButton1"
+        Me.ToolStripButton1.Size = New System.Drawing.Size(36, 32)
+        Me.ToolStripButton1.Text = "ToolStripButton1"
+        Me.ToolStripButton1.ToolTipText = "Generate Employee List"
+        '
+        'ToolStripButton3
+        '
+        Me.ToolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton3.Image = Global.ProjectHR.My.Resources.Resources.if_db_update_3213
+        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton3.Name = "ToolStripButton3"
+        Me.ToolStripButton3.Size = New System.Drawing.Size(36, 32)
+        Me.ToolStripButton3.Text = "ToolStripButton3"
+        Me.ToolStripButton3.ToolTipText = "Database"
+        '
+        'EmployeesToolStripMenuItem
+        '
+        Me.EmployeesToolStripMenuItem.Name = "EmployeesToolStripMenuItem"
+        Me.EmployeesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EmployeesToolStripMenuItem.Text = "Add/Edit"
+        '
+        'EmployeesToolStripMenuItem1
+        '
+        Me.EmployeesToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ListToolStripMenuItem})
+        Me.EmployeesToolStripMenuItem1.Name = "EmployeesToolStripMenuItem1"
+        Me.EmployeesToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.EmployeesToolStripMenuItem1.Text = "Employees"
+        '
+        'ListToolStripMenuItem
+        '
+        Me.ListToolStripMenuItem.Name = "ListToolStripMenuItem"
+        Me.ListToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ListToolStripMenuItem.Text = "List"
         '
         'FrmMaster
         '
@@ -141,4 +189,9 @@ Partial Class FrmMaster
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolStrip1 As ToolStrip
     Friend WithEvents ToolStripButton2 As ToolStripButton
+    Friend WithEvents ToolStripButton1 As ToolStripButton
+    Friend WithEvents ToolStripButton3 As ToolStripButton
+    Friend WithEvents EmployeesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EmployeesToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ListToolStripMenuItem As ToolStripMenuItem
 End Class

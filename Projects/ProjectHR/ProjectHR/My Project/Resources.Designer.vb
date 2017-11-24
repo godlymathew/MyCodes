@@ -63,9 +63,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Dario_Arnaez_Genesis_3G_User_Files() As System.Drawing.Bitmap
+        Friend ReadOnly Property if_db_update_3213() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Dario-Arnaez-Genesis-3G-User-Files", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("if_db_update_3213", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -73,9 +73,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Hopstarter_Sleek_Xp_Basic_Preppy() As System.Drawing.Bitmap
+        Friend ReadOnly Property if_Edit_page_131907() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Hopstarter-Sleek-Xp-Basic-Preppy", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("if_Edit_page_131907", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -83,9 +83,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property if_document_1287528() As System.Drawing.Bitmap
+        Friend ReadOnly Property if_export_59884() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("if_document_1287528", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("if_export_59884", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -93,9 +93,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property if_email_1287527() As System.Drawing.Bitmap
+        Friend ReadOnly Property if_Login_73221() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("if_email_1287527", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("if_Login_73221", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -103,9 +103,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property if_Profile_10593() As System.Drawing.Bitmap
+        Friend ReadOnly Property if_save_101256() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("if_Profile_10593", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("if_save_101256", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -113,9 +113,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property if_user_1287507() As System.Drawing.Bitmap
+        Friend ReadOnly Property if_SEO_Performance_2___324966() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("if_user_1287507", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("if_SEO_Performance_2___324966", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -123,9 +123,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Lgp85_Magic_Christmas_My_Documents() As System.Drawing.Bitmap
+        Friend ReadOnly Property if_User_27887() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Lgp85-Magic-Christmas-My-Documents", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("if_User_27887", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

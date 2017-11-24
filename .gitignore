@@ -10,3 +10,5 @@ Projects/ProjectHR/.vs/ProjectHR/v15/Server/sqlite3/storage.ide-shm
 *.ide-shm
 Projects/ProjectHR/.vs/ProjectHR/v15/.suo
 Projects/ProjectHR/.vs/ProjectHR/v15/.suo
+Projects/ProjectHR/ProjectHR/bin/Debug/ProjectHR.exe
+*.exe

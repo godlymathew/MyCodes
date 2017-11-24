@@ -46,7 +46,8 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>if_user_1287507.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -80,6 +81,12 @@
     <Compile Include="Form\FrmMaster.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form\Transactions\FrmEmployee.Designer.vb">
+      <DependentUpon>FrmEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Transactions\FrmEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmLogin.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +116,9 @@
     <EmbeddedResource Include="Form\FrmMaster.resx">
       <DependentUpon>FrmMaster.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form\Transactions\FrmEmployee.resx">
+      <DependentUpon>FrmEmployee.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.vb</DependentUpon>
     </EmbeddedResource>
@@ -133,13 +143,41 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Form\Reports\" />
-    <Folder Include="Form\Transactions\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="if_user_1287507.ico" />
-    <None Include="Resources\if_user_1287507.ico" />
-    <None Include="Resources\if_email_1287527.ico" />
-    <None Include="Resources\if_document_1287528.ico" />
+    <None Include="Resources\if_Login_73221.ico" />
+    <None Include="Resources\if_User_27887.ico" />
+    <None Include="Resources\if_Text Document_27884.ico" />
+    <None Include="Resources\if_db_update_3213.ico" />
+    <None Include="Resources\if_export_59884.ico" />
+    <None Include="Resources\if_Edit_page_131907.ico" />
+    <None Include="Resources\if_save_101256.ico" />
+    <None Include="Resources\if_SEO_Performance_2___324966.ico" />
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_db_update_32131.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Edit_page_1319071.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_export_598841.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Login_732211.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_save_1012561.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_SEO_Performance_2___3249661.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Text Document_278841.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_User_278871.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

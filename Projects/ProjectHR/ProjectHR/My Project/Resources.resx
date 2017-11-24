@@ -118,25 +118,52 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Hopstarter-Sleek-Xp-Basic-Preppy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hopstarter-Sleek-Xp-Basic-Preppy.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="if_SEO_Performance_2___324966" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_SEO_Performance_2___324966.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Dario-Arnaez-Genesis-3G-User-Files" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dario-Arnaez-Genesis-3G-User-Files.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="if_Login_73221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Login_73221.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="if_Profile_10593" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_Profile_10593.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="if_save_101256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_save_101256.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lgp85-Magic-Christmas-My-Documents" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lgp85-Magic-Christmas-My-Documents.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="if_Edit_page_131907" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Edit_page_131907.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="if_document_1287528" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_document_1287528.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="if_User_27887" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_User_27887.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="if_email_1287527" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_email_1287527.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="if_Text_Document_27884" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Text Document_27884.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="if_user_1287507" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_user_1287507.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="if_export_59884" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_export_59884.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_db_update_3213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_db_update_3213.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_db_update_3213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_db_update_32131.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Edit_page_131907" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Edit_page_1319071.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_export_59884" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_export_598841.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Login_73221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Login_732211.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_save_101256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_save_1012561.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_SEO_Performance_2___324966" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_SEO_Performance_2___3249661.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Text Document_27884" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Text Document_278841.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_User_27887" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_User_278871.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

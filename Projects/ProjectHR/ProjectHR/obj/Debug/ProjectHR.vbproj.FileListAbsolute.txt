@@ -24,3 +24,4 @@ D:\Development\Git\GitHub\MyCodes\MyCodes\Projects\ProjectHR\ProjectHR\obj\Debug
 D:\Development\Git\GitHub\MyCodes\MyCodes\Projects\ProjectHR\ProjectHR\obj\Debug\ProjectHR.exe
 D:\Development\Git\GitHub\MyCodes\MyCodes\Projects\ProjectHR\ProjectHR\obj\Debug\ProjectHR.xml
 D:\Development\Git\GitHub\MyCodes\MyCodes\Projects\ProjectHR\ProjectHR\obj\Debug\ProjectHR.pdb
+D:\Development\Git\GitHub\MyCodes\MyCodes\Projects\ProjectHR\ProjectHR\obj\Debug\ProjectHR.FrmEmployee.resources
