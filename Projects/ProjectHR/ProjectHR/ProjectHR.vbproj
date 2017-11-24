@@ -81,6 +81,12 @@
     <Compile Include="Form\FrmMaster.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form\FrmNationality.Designer.vb">
+      <DependentUpon>FrmNationality.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmNationality.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form\Transactions\FrmEmployee.Designer.vb">
       <DependentUpon>FrmEmployee.vb</DependentUpon>
     </Compile>
@@ -95,6 +101,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Helpers\AppFunctions.vb" />
+    <Compile Include="Helpers\Data.vb" />
     <Compile Include="Helpers\Utilities.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -115,6 +122,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Form\FrmMaster.resx">
       <DependentUpon>FrmMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmNationality.resx">
+      <DependentUpon>FrmNationality.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\Transactions\FrmEmployee.resx">
       <DependentUpon>FrmEmployee.vb</DependentUpon>
