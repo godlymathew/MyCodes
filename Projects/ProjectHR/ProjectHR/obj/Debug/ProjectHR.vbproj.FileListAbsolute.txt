@@ -1,0 +1,13 @@
+D:\Development\WorkShop\WinForms\ProjectHR\ProjectHR\ProjectHR\obj\Debug\ProjectHR.vbprojResolveAssemblyReference.cache
+D:\Development\WorkShop\WinForms\ProjectHR\ProjectHR\ProjectHR\obj\Debug\ProjectHR.FrmLogin.resources
+D:\Development\WorkShop\WinForms\ProjectHR\ProjectHR\ProjectHR\obj\Debug\ProjectHR.Resources.resources
+D:\Development\WorkShop\WinForms\ProjectHR\ProjectHR\ProjectHR\obj\Debug\ProjectHR.vbproj.GenerateResource.Cache
+D:\Development\WorkShop\WinForms\ProjectHR\ProjectHR\ProjectHR\obj\Debug\ProjectHR.vbproj.CoreCompileInputs.cache
+D:\Development\WorkShop\WinForms\ProjectHR\ProjectHR\ProjectHR\bin\Debug\ProjectHR.exe.config
+D:\Development\WorkShop\WinForms\ProjectHR\ProjectHR\ProjectHR\bin\Debug\ProjectHR.exe
+D:\Development\WorkShop\WinForms\ProjectHR\ProjectHR\ProjectHR\bin\Debug\ProjectHR.pdb
+D:\Development\WorkShop\WinForms\ProjectHR\ProjectHR\ProjectHR\bin\Debug\ProjectHR.xml
+D:\Development\WorkShop\WinForms\ProjectHR\ProjectHR\ProjectHR\obj\Debug\ProjectHR.exe
+D:\Development\WorkShop\WinForms\ProjectHR\ProjectHR\ProjectHR\obj\Debug\ProjectHR.xml
+D:\Development\WorkShop\WinForms\ProjectHR\ProjectHR\ProjectHR\obj\Debug\ProjectHR.pdb
+D:\Development\WorkShop\WinForms\ProjectHR\ProjectHR\ProjectHR\obj\Debug\ProjectHR.FrmMaster.resources
