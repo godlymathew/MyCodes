@@ -7,6 +7,7 @@
 
         Dim frmMain = New FrmMaster()
         frmMain.Show()
+        frmMain.Text = "ProjectHR"
         Me.Hide()
     End Sub
 
