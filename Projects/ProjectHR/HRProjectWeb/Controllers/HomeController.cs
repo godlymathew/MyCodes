@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using HRProjectWeb.Models;
 
 namespace HRProjectWeb.Controllers
 {
@@ -25,6 +26,13 @@ namespace HRProjectWeb.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult Nationality()
+        {
+            ViewBag.Message = "Nationalities";
+            Nationality nat = new Nationality();            
+            return View(nat.GetNationalityList());
         }
     }
 }
