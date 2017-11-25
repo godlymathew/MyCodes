@@ -50,10 +50,14 @@
     </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -81,16 +85,22 @@
     <Compile Include="Form\FrmMaster.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\FrmNationality.Designer.vb">
+    <Compile Include="Form\Transactions\FrmNationality.Designer.vb">
       <DependentUpon>FrmNationality.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form\FrmNationality.vb">
+    <Compile Include="Form\Transactions\FrmNationality.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form\Transactions\FrmEmployee.Designer.vb">
       <DependentUpon>FrmEmployee.vb</DependentUpon>
     </Compile>
     <Compile Include="Form\Transactions\FrmEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Reports\FrmRDLCReport.Designer.vb">
+      <DependentUpon>FrmRDLCReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Reports\FrmRDLCReport.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmLogin.vb">
@@ -123,11 +133,15 @@
     <EmbeddedResource Include="Form\FrmMaster.resx">
       <DependentUpon>FrmMaster.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\FrmNationality.resx">
+    <EmbeddedResource Include="Form\Reports\Report1.rdlc" />
+    <EmbeddedResource Include="Form\Transactions\FrmNationality.resx">
       <DependentUpon>FrmNationality.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\Transactions\FrmEmployee.resx">
       <DependentUpon>FrmEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Reports\FrmRDLCReport.resx">
+      <DependentUpon>FrmRDLCReport.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.vb</DependentUpon>
@@ -151,9 +165,7 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Form\Reports\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\if_Login_73221.ico" />
     <None Include="Resources\if_User_27887.ico" />
@@ -188,6 +200,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\if_User_278871.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.vbproj">
+      <Project>{d35f32b4-b8b3-4e3f-b81f-8ac467660ef6}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
